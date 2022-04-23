@@ -1,7 +1,6 @@
 import { ContactInfo, Copy, Email, FooterManu, Footerr, H4, H6, Logo,Ul, P, Phone, RightContent, Text, Li } from "./FooterElements";
 import Logoo from "../Footer/Logo.png"
 import {Container, Row, Col} from "../Utils/Elements"
-import { Navbar, Nav } from "react-bootstrap";
 
 const Footer = () => {
     return (
