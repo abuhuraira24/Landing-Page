@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+
 
 import { TestmonialWrapper,LeftContent,LeftTitle, Text, RightContent, ReviewText,ReviewControler,ClietInfo, Image, Name, Img, Span, Bio } from "./TestimonialStyle";
 
