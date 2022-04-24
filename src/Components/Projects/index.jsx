@@ -10,7 +10,7 @@ import Card3 from "../Projects/Card3.png"
 
 const Project = () => {
     return (
-        <ProjectWrapper>
+        <ProjectWrapper  id="features">
             <Container>
                 <Row>
                     <ProjectTitle>

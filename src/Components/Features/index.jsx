@@ -17,7 +17,7 @@ import write from '../Features/write.png'
 
 const Features = () => {
     return (
-        <FeaturesWrapper>
+        <FeaturesWrapper  id="pricing">
             <Container>
                <Row>
                    <Col w="100">

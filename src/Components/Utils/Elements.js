@@ -51,7 +51,7 @@ export const Button = styled.button`
   transition: width 2s;
   font-weight: 500;
   margin-top: ${(props) => props.mt}rem;
-  border: 1px solid #dddddd38;
+  border: 1px solid #dddddd38 !important;
   @media (max-width: 991px) {
     margin-left: ${(props) => props.ml};
   }

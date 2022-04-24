@@ -8,7 +8,7 @@ import person3 from "../Blog/person3.png"
 
 const Blog = () => {
     return (
-        <BlogWrapper>
+        <BlogWrapper id="blog">
            <Container>
                <Row>
                    <Col w="100">

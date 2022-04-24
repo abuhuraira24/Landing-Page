@@ -21,7 +21,7 @@ const Testimonial = () => {
 
 
     return (
-        <TestmonialWrapper>
+        <TestmonialWrapper id="testimonial">
            <Container>
                <Row>
                    <Col w="40" md="100">

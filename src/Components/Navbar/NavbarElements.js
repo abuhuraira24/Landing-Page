@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { NavHashLink } from "react-router-hash-link";
 export const Nav = styled.div`
   top: 0;
   left: 0;
@@ -59,6 +59,7 @@ export const NavbarMenu = styled.ul`
   margin-top: 1rem;
 
   @media (max-width: 991px) {
+    margin-top: 0rem;
     width: 100%;
     position: absolute;
     left: 0;
@@ -84,7 +85,7 @@ export const NavItem = styled.li`
   }
 `;
 
-export const NavLink = styled.a`
+export const NavLink = styled(NavHashLink)`
   font-size: 16px;
   margin-left: 2rem;
   font-weight: 300;

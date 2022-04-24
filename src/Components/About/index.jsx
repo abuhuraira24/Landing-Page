@@ -7,7 +7,7 @@ import four from "../About/four.png"
 
 const About = () => {
     return (
-        <AboutWrapper>
+        <AboutWrapper id="about">
             <Container>
                 <Row>
                     <Col w='40' md="991" mb-md-4>

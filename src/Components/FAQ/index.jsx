@@ -6,7 +6,7 @@ import { Accordion } from "react-bootstrap";
 
 const FAQ = () => {
     return (
-        <FaqWrapper>
+        <FaqWrapper id='faq'>
           <Container>
               <Row>
                   <Col w="40" md="100">

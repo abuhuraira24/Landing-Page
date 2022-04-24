@@ -5,6 +5,7 @@ import { FaAlignJustify } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import { Button } from "../Utils/Elements";
 
+
 const Navbar = () => {
 
     const [open, setOpen] = useState(false)
@@ -35,41 +36,45 @@ const Navbar = () => {
          <Nav issticky={sticky}>
           <NavbarContainer>
               <NavLogo issticky={sticky} to='/'>
-                  <Image src={logo} alt="logo" />
+                 
+                  <NavItem issticky={sticky}>
+                      <NavLink issticky={sticky} to='#'>
+                      <Image src={logo} alt="logo" />
+                      </NavLink>
+                  </NavItem>
               </NavLogo>
               
               <NavbarMenu issticky={sticky} toggle={open}>
                   <NavItem issticky={sticky}>
-                      <NavLink issticky={sticky} to='/'>
+                      <NavLink issticky={sticky} to='#'>
                           Home
                       </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink issticky={sticky} to="/about">
+                    <NavLink issticky={sticky} to="#about">
                           About
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                     <NavLink issticky={sticky} to="/features">
+                     <NavLink issticky={sticky} to="#pricing">
                           Features
                      </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink issticky={sticky} to="/features">
-                          Products
-                     </NavLink>
-                  </NavItem>
-                  <NavItem>
-                     <NavLink issticky={sticky} to="/products">
+                     <NavLink issticky={sticky} to="#testimonial">
                           Tstimonial
                      </NavLink>
                   </NavItem>
                   <NavItem>
-                     <NavLink issticky={sticky} to="/faq">
+                     <NavLink issticky={sticky} to="#faq">
                           FAQ
                       </NavLink>
                   </NavItem>
-   
+                  <NavItem>
+                     <NavLink issticky={sticky} to="#blog">
+                          Blog
+                      </NavLink>
+                  </NavItem>
               </NavbarMenu>
               <Button ml="auto" bg="transparent" colur="#fff">Contact us</Button>
               <MenuIcon>
